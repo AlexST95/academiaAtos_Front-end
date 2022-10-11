@@ -1,0 +1,41 @@
+.container {
+    height: 300px;
+    width: 400px;
+    background-color: #1900ff;
+    border-radius: 9%;
+    overflow: auto;
+    position: relative;
+    }
+
+.elemento {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    background-color: #ff0100;  
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+div.elemento:nth-child(1){
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+div.elemento:nth-of-type(2){
+    position: absolute;
+    right: 0;
+    bottom: 28%;
+}
+
+div.elemento:nth-of-type(3){
+    position: absolute;
+    right: 0;
+    bottom: 55%
+}
+
+div.elemento:nth-of-type(4){
+    position: absolute;
+    right: 0;
+}
