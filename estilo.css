@@ -1,0 +1,28 @@
+* {
+    margin: 10;
+    padding: 0;
+}
+
+.container {
+    height: 300px;
+    width: 400px;
+    background-color: blue;
+    margin: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 25px;
+    overflow: hidden;
+    justify-content: space-between;
+    }
+
+.elemento {
+    width: 100px;
+    height: 50px;
+    background-color: #ff0100;  
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    display: flex;
+    position: relative;
+    left: 300px;
+}
